@@ -5,4 +5,4 @@ There are some rules to your PR's:
 
 (1) Always name your files and include the screensize which it is made for
 
-(2) Upload the .hmi file (mandatory) and, if possibel, add the compiled .tft file too. Requests without the .hmi file are not granted.
+(2) Upload the .hmi file (mandatory) and, if possible, add the compiled .tft file too. Requests without the .hmi file are not granted.
