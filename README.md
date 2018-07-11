@@ -14,4 +14,5 @@ Please read this instructions:
   If you have questions or need support: https://www.facebook.com/groups/Nextion/
   
   If you like my work and want to support it, please donate a beer (or 2) via Paypal.me/PD0DIB 
+  
   73 de PD0DIB
