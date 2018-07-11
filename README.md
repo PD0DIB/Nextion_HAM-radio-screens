@@ -12,5 +12,6 @@ Please read this instructions:
   (3) Select ScreenLayout: ON7LDS L3
   
   If you have questions or need support: https://www.facebook.com/groups/Nextion/
+  
   If you like my work and want to support it, please donate a beer (or 2) via Paypal.me/PD0DIB 
   73 de PD0DIB
