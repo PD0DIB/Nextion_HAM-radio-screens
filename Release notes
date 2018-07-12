@@ -1,0 +1,14 @@
+Release notes Nextion Screen Model 7 "FLAG"- edition
+
+Version 2.1a
+  * Fixed some flag & country typo's
+  * standardized all code and tables/libraries; 'one library suits all", so easier to mainain all sizes.
+
+Version 2.1
+  * 'Squeezed' file size and optimized flag table and code; from this version on, all models Basic and Enhanced screens are supported
+  * Fixed some flag & country enries
+  * added bèta version of Utility screen with brightness slider (not yet working properly in this version)
+
+Version 2.0
+  * First version  for 2.4 / 2.8 and 3.2 Enhanced models and all other sizes for Basic & Enhanced 
+  * Flags & country names 'connected' to prefix callsign; if no flag is available, country name is present
