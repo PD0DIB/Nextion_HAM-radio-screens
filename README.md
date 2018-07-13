@@ -13,7 +13,13 @@ Please read this instructions:
       
   (3) Select ScreenLayout: ON7LDS L3
   
-  If you have questions or need support: https://www.facebook.com/groups/Nextion/
+  If you have questions or need support: 
+  
+    * Click on the Wiki button in top of this page for some wiki FAQ pages
+      + how to connect (hardware)
+      + How to set Pi-Star
+      + more coming up ...
+    *  Go for further support to: https://www.facebook.com/groups/Nextion/
   
   If you like my work and want to support it, please donate a beer (or 2) via Paypal.me/PD0DIB 
   
