@@ -17,6 +17,6 @@ Please read this instructions:
   
   If you like my work and want to support it, please donate a beer (or 2) via Paypal.me/PD0DIB 
   
-  This software and screen designs are licenced under the GPL v2 and is intended for amateur and educational use only. Use of this software for commercial purposes is strictly forbidden.
+  This software and screen designs are licenced under the GPL v2 and is intended for amateur and educational use only. Use of this software for commercial purposes is strictly forbidden without prior and written permission from the Author PD0DIB.
   
   73 de PD0DIB
