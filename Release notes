@@ -2,7 +2,7 @@ Release notes Nextion Screen Model 7 "FLAG"- edition
 
 Version 2.1a
   * Fixed some flag & country typo's
-  * standardized all code and tables/libraries; 'one library suits all", so easier to mainain all sizes.
+  * standardized all code and tables/libraries; 'one library suits all", so easier to maintain all sizes.
   * Introduced a utility page for future use; now it includes some info regarding the screen and the bèta brightness slider. Touch de touch-button on the mainscreen to jump into the utility page
 
 Version 2.1
