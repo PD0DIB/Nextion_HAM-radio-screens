@@ -13,7 +13,7 @@ Please read this instructions:
       
   (3) Select ScreenLayout: ON7LDS L3
   
-  If you have questions or need support: 
+  If you have questions or need support, got to the Wike part (button on top of this Github page: 
   
     * Click on the Wiki button in top of this page for some wiki FAQ pages
       + how to connect (hardware)
