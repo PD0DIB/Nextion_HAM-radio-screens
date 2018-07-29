@@ -1,7 +1,9 @@
 Release notes Nextion Screen Model 7 "FLAG"- edition
-Version 2.2
+
+Version 2.2 (29-July-2018)
   * Added a basic POCSAG screen - work in progress
   * Fixed / added some flags and prefix codes
+  
 Version 2.1a
   * Fixed some flag & country typo's
   * standardized all code and tables/libraries; 'one library suits all", so easier to maintain all sizes.
