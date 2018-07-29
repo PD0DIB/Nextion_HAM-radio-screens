@@ -7,7 +7,8 @@ Copyright (C) 2018 by Rob van Rheenen - PD0DIB
 
 Rob van Rheenen | r.van.rheenen@gmail.com
   
-  This software may be distributed free of charge. It may be only used for non-commercial applications. 
+  This software may be distributed free of charge. It may be only used for non-commercial applications.
+  If used by a commercial organisation in whole, as a part or bundled with other items, you need written permission from the copyright holders.
   It's use is limited to applications releated directly to amateur radio. 
   The software may be changed and redistributed, but in any case, this licences remarks have to be maintained in the disribution. 
   The original copyright holders have to be named.
