@@ -1,5 +1,6 @@
 # Nextion_HAM-radio-screens
-Copyright (c) 2018, Rob van Rheenen (PD0DIB)
+Copyright (c) 2018 by Rob van Rheenen (PD0DIB)
+
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
