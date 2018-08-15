@@ -11,7 +11,7 @@ In this repository:
 
 ON SCREEN
   * Basic info with Last Heard and IP-Address
-  * Country flag & country name, displayed based on call-prefix
+  * Country flag & country name based on call-prefix
   * all mode covered, including POCSAG Transmitter page (basic)
   
 ==> Model 8 (ON7LDS NextionDriver has to be installed, see FAQhow to install in the Wiki part of this Github (it's easy :) )
