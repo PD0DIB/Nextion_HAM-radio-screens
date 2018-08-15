@@ -23,5 +23,5 @@ All Model 7 features, extendend with:
   * Dashboard with extended CPU and Disk info
   * 2 variants available:
     + GLOBE with only necessery info on Idle page
-    + Dashboard, with extended info on Idle page
+    + DASH(board), with extended info on Idle page
   
