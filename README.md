@@ -1,6 +1,8 @@
 # Nextion_HAM-radio-screens - OLD EDITOR (LST or =< v0.54)
 In this Repository you can find my latest Nextion screens for HAM Radio, mostly for MMDVM
-REMARK: All Model x * and lower (8, 7, ...) are for old Editor (LST or v0.54 or lower)
+
+<B>REMARK: All Model x * and lower (8, 7, ...) are for old Editor (LST or v0.54 or lower)</B>
+
 PLEASE SEE The docs map for TUTORIALS, WRITE-UPS and see THE FAQ-PAPERS located in the WIKI section of this repository
 
 (c) 2018-2020 by Rob van Rheenen (PD0DIB): All rights reserved; read the License statement.
