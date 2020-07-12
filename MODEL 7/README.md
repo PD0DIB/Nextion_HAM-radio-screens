@@ -6,5 +6,3 @@ You can download the LST Editor at: www.nextion.tech site. Pick the ZIP version,
 However, you can modify the files by changing / substitute the fonts into an accepted font-type for the new Ediotor
 and recompile this file.
 
-I'm in the process to 'convert' the files for the new editor; those files can be found in the folde "New Editor"
-in this repository.
