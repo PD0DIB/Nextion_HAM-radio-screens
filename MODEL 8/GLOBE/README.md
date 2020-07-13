@@ -1,4 +1,4 @@
-REMARK 1: In this folder are 'OLD' (LST editor; all filenames starting with Model 8...) and 'NEW' Editor files(all filenames starting with NX...); both for Basic and Enhanced screens; both Editors are (for free) at www.nextion.tech available.
+REMARK 1: In this folder are 'OLD' (LST editor; all filenames starting with Model 8...) and 'NEW' Editor files (all filenames starting with NX...); both for Basic and Enhanced screens; both Editors are (for free) at www.nextion.tech available.
 
 REMARK 2: All my screens are using the ON7LDS NextionDriver (www.github.com/on7lds); set screen layout to ON7LDS L3
 
