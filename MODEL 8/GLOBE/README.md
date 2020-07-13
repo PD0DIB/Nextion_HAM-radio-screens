@@ -1,4 +1,4 @@
-REMARK 1: IN THIS FOLDER ARE 'OLD' (LST) and 'NEW' Editor files; both for Basic and Enhanced screens
+REMARK 1: IN THIS FOLDER ARE 'OLD' (LST) and 'NEW' Editor files; both for Basic and Enhanced screens; both Editors are (for free) at www.nextion.tech available.
 
 REMARK 2: All my screens are using the ON7LDS NextionDriver (www.github.com/on7lds); set screen layout to ON7LDS L3
 
