@@ -1,4 +1,6 @@
-REMARK: IN THIS FOLDER ARE 'OLD' and 'NEW' Editor files; both for Basic and Enhanced screens
+REMARK 1: IN THIS FOLDER ARE 'OLD' and 'NEW' Editor files; both for Basic and Enhanced screens
+
+REMARK 2: All my screens are using the ON7LDS NextionDriver (www.github.com/on7lds); set screen layout to ON7LDS L3
 
 The 'NEW' Editor files (Editor 0.56 and up) has 'NE' in the filename. Al my new Editor screens are build and tested with v1.60 Editor.
 
