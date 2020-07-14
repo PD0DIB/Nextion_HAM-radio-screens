@@ -1,5 +1,5 @@
 # Nextion_HAM-radio-screens
-# USE LST Editor (OLD EDITOR) for Model 7 - those will not be updated to Editor 1.6x or up
+# PLEASE DO READ THE README-DOC IN EACH FOLDER FOR IMPORTANT INFO
 
 
 <B>REMARK: All Model 8 screens will be upgraded to the New Editor soon.
