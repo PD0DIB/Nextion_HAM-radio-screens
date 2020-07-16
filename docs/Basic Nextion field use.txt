@@ -1,3 +1,8 @@
+This document explains the basic status- and text fields, supplied by MMDVM and ON7LDS 'NextionDriver.
+Those fields (values) can be used in your Nexztion screen design.
+#REMARK 01: Lot of designers (including myself) remapped those fields/values (mostly at the MMDVM page)for use at other pages too.
+#REMARK 02: there is, unfortunally, no 'standard' or any convention to use other fields, programmed into the Nextion screens. So 'reversed engineering' is possible, but you need basic knowledge how Nextion screens are programmed, including the script language, which is documented at the Nextion site (www.nextion.tech)
+
 Page names
 ----------------------------------------------------------
  1 : page MMDVM
