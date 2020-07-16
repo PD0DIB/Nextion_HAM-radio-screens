@@ -2,8 +2,7 @@
 (temperature, CPU cyles, etc..); different from the "GLOBE" screens.
 
 However, converting these files are not my highest prio; GLOBE screens are....
-
-So you don't find all screen-sizes in this folder (yet).
+Those has the latest developments, insights, etc...
 
 Have fun! PD0DIB | Rob van Rheenen
 
