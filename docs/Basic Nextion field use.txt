@@ -1,0 +1,163 @@
+Page names
+----------------------------------------------------------
+ 1 : page MMDVM
+ 2 : page DStar
+ 3 : page DMR
+ 4 : page YSF
+ 5 : page P25 
+ 6 : page NXDN
+ 7 : page POCSAG
+ 
+MMDVM Status values
+----------------------------------------------------------
+ 0 : bkcmd  (nextion command to stop all success/failure messages over the serial port)
+11 : IDLE
+12 : CW Ident
+13 : ERROR text
+14 : ERROR
+15 : LOCKOUT
+16 : IPaddress
+17 : ID/Call (t0 and if layout >2 t4,and t5 are sent also)
+19 : END
+20 : RX Frequency
+21 : TX Frequency
+22 : Temperature
+23 : Location
+24 : Nextion Driver extra info update (t3, t20, t21, t22, cpuload, t23)
+
+41 : D-Star listening
+42 : type/my1/my2
+45 : your
+46 : reflector
+47 : RSSI
+48 : ber
+
+61 : DMR listening1
+62 : ID1
+63 : TA1
+64 : Call end1
+65 : TG1
+66 : RSSI1
+67 : ber1
+68 : User data TS1 (t18,19,20,21,22)
+69 : DMR listening2
+70 : ID2
+71 : TA2
+72 : Call end2
+73 : TG2
+74 : RSSI2
+75 : ber2
+76 : No longer used?
+77 : No longer used?
+78 : User data TS2 (t13,14,15,16,17)
+
+81 : YSF listening
+82 : src
+83 : dest
+84 : origin
+85 : RSSI
+86 : ber
+
+101 : P25 listening
+102 : source
+103 : dest
+104 : RSSI
+105 : ber
+
+121 : NXDN listening
+122 : source
+123 : dest
+124 : RSSI
+125 : ber
+
+132 : RIC
+133 : message text
+134 : waiting
+
+
+Fields
+----------------------------------------------------------
+
+MMDVM
+  t0 : owner call & ID / errortext  LOCKOUT
+  t1 : status / ERROR
+  t2 : date & time
+
+
+  screenLayout >2 :
+     t3 : ip address
+     t4 : owner call
+     t5 : owner ID
+    t30 : RXfrequency
+    t32 : TXfrequency
+    t20 : CPU Temperature in C.   ( Can be changed to F in mmdmvhost config setting: [NEXTION] Section, Setting=DisplayTempInFahrenheit=1)
+    t31 : location
+
+  Nextion Driver only:
+    t21 : CPU frequency (Nextion Driver only)
+    t22 : CPU loadavg 1 min  (Nextion Driver only)
+    cpuload :  CPU loadavg 1 min  (Nextion Driver only)
+    t23 : Disk free %  (Nextion Driver only)
+
+
+
+DStar
+  t0 : type my1 my2
+  t1 : your
+  t2 : reflector
+  t3 : rssi
+  t4 : ber
+
+
+DMR
+  t0 : src1 id / call / TA
+  t1 : dst
+  t2 : src2 id / call / TA
+  t3 : dst
+  t4 : rssi1
+  t5 : rssi2
+  t6 : ber1
+  t7 : ber2
+
+  screenLayout >2 :
+   t8 : talkgroup name TS2
+   t9 : talkgroup name TS1
+  t10: No longer used?
+  t11: No longer used?
+  t12: No longer used?
+  t13: CSV lookup data TS2
+  t14: CSV lookup data TS2
+  t15: CSV lookup data TS2
+  t16: CSV lookup data TS2
+  t17: CSV lookup data TS2
+  t18: CSV lookup data TS1
+  t19: CSV lookup data TS1
+  t20: CSV lookup data TS1
+  t21: CSV lookup data TS1
+  t22: CSV lookup data TS1
+
+
+YSF
+  t0 : type,source
+  t1 : dst
+  t2 : src
+  t3 : rssi
+  t4 : ber
+
+
+P25
+  t0 : type,source
+  t1 : dst
+  t2 : rssi
+  t3 : ber
+
+
+NXDN
+  t0 : type,source
+  t1 : dst
+  t2 : rssi
+  t3 : ber
+
+POCSAG
+  t0 : waiting / RIC
+  t1 : message
