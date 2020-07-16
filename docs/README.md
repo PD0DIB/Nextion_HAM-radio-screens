@@ -1,9 +1,9 @@
-The Nextion: How-To-Build tutorial in this section is written using the LST ('Old") editor. 
+In this section:
 
-The new editor (v. 0.56 and up) has more powerfull features which are not used by this tutorial.
-
-However, it still is an excelent document to start with, learning the basics 'How to use and build/modify" your own screens.
-
-The Basic fields document describes all variable fields, provisioned by your hotspot (MMDVM and ON7LDS NextionDriver).
+1)  The Nextion Editor Programming Language for Editor v0.58 and higher
+      * explaining the programming script-language for the Nextion Nextion Screens
+2)  The Nextion "How-to" document
+      * A "learning by doing" description, based on the 'Old'(LST) editor, but still usable for the basics
+3)  Standard values and .txt fields and functions, provisioned by MMDVM and ON7LDS' NextionDriver
 
 Have fun! PD0DIB | Rob van Rheenen
