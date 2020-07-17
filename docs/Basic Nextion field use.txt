@@ -5,7 +5,7 @@ Those fields (values) can be used in your Nexztion screen design.
 but you need basic knowledge how Nextion screens are programmed, including the script language, which is documented at the Nextion site (www.nextion.tech)
 
 Many thanks and credits to Jason - KE7FNS who compiled this file.
-More info: Pi-Star forum: https://forum.pistar.uk/viewtopic.php?f=20&t=2196
+More info and an excelent write-up with a lot of information by Jason at the Pi-Star forum: https://forum.pistar.uk/viewtopic.php?f=20&t=2196
 
 
 Page names
