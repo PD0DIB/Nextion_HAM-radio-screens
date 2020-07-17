@@ -4,7 +4,7 @@ Those fields (values) can be used in your Nexztion screen design.
 #REMARK 02: there is, unfortunally, no 'standard' or any convention to use other fields, programmed into the Nextion screens. So 'reversed engineering' is possible,
 but you need basic knowledge how Nextion screens are programmed, including the script language, which is documented at the Nextion site (www.nextion.tech)
 
-Many thanks and credits to Jason - KE7FNS who compiled tis file.
+Many thanks and credits to Jason - KE7FNS who compiled this file.
 More info: Pi-Star forum: https://forum.pistar.uk/viewtopic.php?f=20&t=2196
 
 
