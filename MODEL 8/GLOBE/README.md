@@ -7,7 +7,8 @@ REMARK 2):  All my screens are using the ON7LDS NextionDriver (www.github.com/on
 
 The 'NEW' Editor files (Editor 0.58 and up) has 'NE' in the filename. Al my new Editor screens are build and tested with v1.60 Editor.
 
-Basic screens has 'T' in the screen-model number; Enhanced has 'K' in the screen-model number; SMPLX is for simplex-, DPLX for duplex hotspots.
+Basic screens has 'T' in the screen-model number; Enhanced has 'K' in the screen-model number; Intelligent screens has a "P" in the screen-model number;
+SMPLX is for simplex-, DPLX for duplex hotspots.
 
 Examples:
 
