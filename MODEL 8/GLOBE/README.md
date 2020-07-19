@@ -1,7 +1,8 @@
 REMARK 1):  In this folder are 'converted' Model 8 screens for 'NEW' Editor files (all filenames starting with NX...); both for Basic and Enhanced screens;
 the Editor is available (for free) at www.nextion.tech.
 
-REMARK 2):  All my screens are using the ON7LDS NextionDriver (www.github.com/on7lds); set screen layout to ON7LDS L3.
+REMARK 2):  All my screens are using the ON7LDS NextionDriver (www.github.com/on7lds),
+running at 9600 Baud (Nextion layout = ON7LDS L3); set screen layout to ON7LDS L3.
 
 * The ON7LDS NextionDriver is candidate to be integrated soon in Pi-Star's 'core' setup; Andy (MW0MWZ) is testing for Pi-Star version 4.3.x
 
