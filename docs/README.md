@@ -1,7 +1,7 @@
 In this section:
 
-1)  The Nextion Editor Programming Language for Editor v0.58 and higher
-      * explaining the (sub)screens, Editor Toolbox, Field Attributes, etc..  for the Nextion Screens. See "Programming language Nextion" doc explaining the programming language.
+1)  The Nextion Editor "How-to-Use)  for Editor v0.58 and higher
+      * explaining the (sub)screens, Editor Toolbox, Field Attributes, etc..  for the Nextion Screens. See "The Nextion Instruction Set" doc explaining the programming language.
 2)  The Nextion Instruction Set
      * The full instruction set ('Programming language') for the Nextion explained (for Editor  v0.58 and higher)
 3)  The Nextion "How-to" document
