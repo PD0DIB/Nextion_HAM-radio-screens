@@ -1,5 +1,5 @@
 # Nextion_HAM-radio-screens
-Copyright (c) 2018 by Rob van Rheenen (PD0DIB)
+Copyright (c) 2018 -2020 by Rob van Rheenen (PD0DIB)
 
 All rights reserved.
 
@@ -14,7 +14,7 @@ modification, are permitted provided that the following conditions are met:
    names of any contributors may be used to endorse or promote products
    derived from this software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY ROB VAN RHEENEN (PD0DIB ''AS IS'' AND ANY
+THIS SOFTWARE IS PROVIDED BY ROB VAN RHEENEN (AKA PD0DIB) ''AS IS'' AND ANY
 EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
 DISCLAIMED. IN NO EVENT SHALL ROB VAN RHEENEN BE LIABLE FOR ANY
