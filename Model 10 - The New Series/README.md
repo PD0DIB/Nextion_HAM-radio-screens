@@ -1,4 +1,4 @@
-Model 10 - The new series
+# Model 10 - The new series
 
 The Model 10 is based on Model 8, but evolved with new possibilities en features.
 
