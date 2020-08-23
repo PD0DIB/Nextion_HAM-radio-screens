@@ -5,3 +5,10 @@
 
 You may use, as a private person, (parts of) design and coding without removing any disclaimer in those parts.
 Commercial use and/or distribution is not allowed without prior and written permission fom the owner.
+
+# Authorized Distributors
+# World-wide
+BI7JTA | Winters CN
+
+# Australia
+VK4NGA | Glenn Allemand
