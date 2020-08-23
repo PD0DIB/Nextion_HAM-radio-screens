@@ -5,7 +5,8 @@ All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted with restrictions (see note 1) provided that the following conditions are met:
-1. Distribution or redistribution as a source or in binary is not allowed for commercial purposes, including but not exclusive (re)distribution at any other site or link to this site at any other site; not as a stand-alone product and / or bundled in a kit without the prior written consent of the Author.
+1. Distribution or redistribution as a source or in binary is not allowed for commercial purposes, including but not exclusive (re)distribution at any other site or link to this site at any other site; not as a stand-alone product and / or bundled in a kit without the prior written consent of the Author. 
+A Distributor list with authorized distributors is in this folder.
    (added as of August 10, 2020).
 2. Redistributions of source code must retain the above copyright
    notice, this list of conditions and the following disclaimer.
