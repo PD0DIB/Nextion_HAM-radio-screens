@@ -8,7 +8,7 @@ modification, are permitted with restrictions (see note 1) provided that the fol
 1. Distribution or redistribution as a source or in binary is not allowed for commercial purposes, including but not exclusive (re)distribution at any other site or link to this site at any other site; not as a stand-alone product and / or bundled in a kit without the prior written consent of the Author. 
 
 A Distributor list with authorized distributors is in this folder.
-   (added as of August 10, 2020).
+
 2. Redistributions of source code must retain the above copyright
    notice, this list of conditions and the following disclaimer.
 3. Redistributions in binary form must reproduce the above copyright
