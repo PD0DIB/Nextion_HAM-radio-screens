@@ -11,7 +11,9 @@ See also the document "License.md" in this repository
 # Authorized Distributors
 # World-wide
 BI7JTA | Winters CN
+
 G4KLX  | Jonathan Naylor
+
 MW0MWZ | Andy Taylor
 
 # Australia
