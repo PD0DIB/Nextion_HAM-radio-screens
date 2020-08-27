@@ -1,6 +1,6 @@
 # Model 10 for SIMPLEX hotspots
 
-This folder contains the Moedl 10 (.hmi) files for Simplex hotspots.
+This folder contains the Model 10 (.hmi) files for Simplex hotspots.
 
 ==> REMARK:
 
