@@ -12,7 +12,7 @@ https://github.com/on7lds/NextionDriverInstaller
 
 it will work without the NextionDriver, but only basic info will be displayed.
 
-2)The 3.2 inch Basic has not enough memory and you will not find it as Model 10 (yet).
+2) The 3.2 inch Basic has not enough memory and you will not find it as Model 10 (yet).
 
 Working on it ........
 
