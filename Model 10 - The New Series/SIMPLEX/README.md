@@ -2,7 +2,7 @@
 
 This folder contains the Model 10 (.hmi) files for Simplex hotspots.
 
-==> REMARKs:
+==> REMARKS:
 
 1) All my Model 10 (Duplex and Simplex) needs the ON7LDS NextionDriver to display full info;
 
