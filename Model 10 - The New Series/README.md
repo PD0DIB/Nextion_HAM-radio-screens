@@ -12,8 +12,7 @@ See https://github.com/on7lds/NextionDriverInstaller
 
 2) Screens, designed specific for the Nextion Intelligent, can't be 'downgraded' to Basic or Enhanced type of Nextion screens. Since the Intelligent has some special attributes I'm using, they are not usable for other types of screens. 
 
-ALL OTHER 7-inch (Basic and Enhanced) ARE IN THIS FOLDER TOO; JUST PICK HE CORRECT SCREENTYPE FOR YOUR SCREEN AND go FOR IT...
-
+ALL OTHER 7-inch (Basic and Enhanced) ARE IN THIS FOLDER TOO; just pick the correct filetype matching your screentype and GO....
 
 (c)2020 by Rob van Rheenen | PD0DIB
 
