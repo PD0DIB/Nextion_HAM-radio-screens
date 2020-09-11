@@ -5,7 +5,7 @@
 // Version 2.1a
 // Build 05082018
 // DMR_TS1
-// Corrected some the prefixes
+// Corrected some prefixes
 //************************************************* 1 CHARACTER PREFIX ** 1 1 1 1 1 ***************************
 substr t0.txt,tolets0.txt,4,1
 if(tolets0.txt=="W")//USA
