@@ -1,0 +1,2524 @@
+// (c)2018-2020 All rights reserved PD0DIB | Rob van Rheenen
+// NOT FOR COMMERCIAL PURPOSES
+// FLAG_CODE for Model 7 FLAG screens
+// 72x50 FLAGS
+// Version 2.2
+// Build 11082018
+// DMR_TS2
+// edit by R2AJV
+//************************************************* 1 CHARACTER PREFIX ** 1 1 1 1 1 ***************************
+substr t2.txt,tolets2.txt,4,1
+if(tolets2.txt=="W")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="K")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="N")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="G")//England
+{
+  p2.pic=87
+  t202.txt="ENGLAND"
+}else if(tolets2.txt=="M")//England
+{
+  p2.pic=87
+  t202.txt="ENGLAND"
+}else if(tolets2.txt=="F")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="I")//Italy
+{
+  p2.pic=123
+  t202.txt="ITALY"
+}else if(tolets2.txt=="L")//Luxembourg
+{
+  p2.pic=142
+  t202.txt="LUXEMBOURG"
+}else if(tolets2.txt=="R")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="L")//Luxembourg
+{
+  p2.pic=142
+  t202.txt="LUXEMBOURG"
+}else if(tolets2.txt=="B")//China
+{
+  p2.pic=67
+  t202.txt="CHINA"
+}else if(tolets2.txt=="S")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}
+//********************************************************* 2-CHARACTER PREFIX ** 2 2 2 2 *****************
+substr t2.txt,tolets2.txt,4,2
+if(tolets2.txt=="YA")//Afghanistan
+{
+  p2.pic=20
+  t202.txt="AFGHANISTAN"
+}else if(tolets2.txt=="ZA")//Albania
+{
+  p2.pic=23
+  t202.txt="ALBANIA"
+}else if(tolets2.txt=="7T")//Algeria
+{
+  p2.pic=24
+  t202.txt="ALGERIA"
+}else if(tolets2.txt=="7U")//Algeria
+{
+  p2.pic=24
+  t202.txt="ALGERIA"
+}else if(tolets2.txt=="7V")//Algeria
+{
+  p2.pic=24
+  t202.txt="ALGERIA"
+}else if(tolets2.txt=="7W")//Algeria
+{
+  p2.pic=24
+  t202.txt="ALGERIA"
+}else if(tolets2.txt=="7X")//Algeria
+{
+  p2.pic=24
+  t202.txt="ALGERIA"
+}else if(tolets2.txt=="7Y")//Algeria
+{
+  p2.pic=24
+  t202.txt="ALGERIA"
+}else if(tolets2.txt=="C3")//Andorra
+{
+  p2.pic=25
+  t202.txt="ANDORRA"
+}else if(tolets2.txt=="D2")//Angola
+{
+  p2.pic=26
+  t202.txt="ANGOLA"
+}else if(tolets2.txt=="D3")//Angola
+{
+  p2.pic=26
+  t202.txt="ANGOLA"
+}else if(tolets2.txt=="V2")//Antiga & Barbuda
+{
+  p2.pic=29
+  t202.txt="ANTICA/BARBUDA"
+}else if(tolets2.txt=="S0")//Arab Democratic Rep
+{
+  p2.pic=18
+  t202.txt="Arab Dem. Rep."
+}else if(tolets2.txt=="A6")//Arabic Emirates
+{
+  p2.pic=30
+  t202.txt="ARABIC EMIRATES"
+}else if(tolets2.txt=="LU")//Argentina
+{
+  p2.pic=31
+  t202.txt="ARGENTINA"
+}else if(tolets2.txt=="LW")//Argentina
+{
+  p2.pic=31
+  t202.txt="ARGENTINA"
+}else if(tolets2.txt=="EK")//Armenia
+{
+  p2.pic=32
+  t202.txt="ARMENIA"
+}else if(tolets2.txt=="P4")//Aruba
+{
+  p2.pic=33
+  t202.txt="ARUBA"
+}else if(tolets2.txt=="VK")//Australia
+{
+  p2.pic=35
+  t202.txt="AUSTRALIA"
+}else if(tolets2.txt=="OE")//Austria
+{
+  p2.pic=36
+  t202.txt="AUSTRIA"
+}else if(tolets2.txt=="4K")//Azerbaidjan
+{
+  p2.pic=37
+  t202.txt="AZERBAIDJAN"
+}else if(tolets2.txt=="4J")//Azerbaidjan
+{
+  p2.pic=37
+  t202.txt="AZERBAIDJAN"
+}else if(tolets2.txt=="CU")//Azores Isl
+{
+  p2.pic=38
+  t202.txt="AZORES Isl"
+}else if(tolets2.txt=="C6")//Bahamas
+{
+  p2.pic=39
+  t202.txt="BAHAMAS"
+}else if(tolets2.txt=="A9")//Bahrain
+{
+  p2.pic=40
+  t202.txt="BAHRAIN"
+}else if(tolets2.txt=="S2")//Bangkadesh
+{
+  p2.pic=42
+  t202.txt="BANGLADESH"
+}else if(tolets2.txt=="8P")//Barbados
+{
+  p2.pic=43
+  t202.txt="BARBADOS"
+}else if(tolets2.txt=="EU")//Belarus
+{
+  p2.pic=44
+  t202.txt="BELARUS"
+}else if(tolets2.txt=="EV")//Belarus
+{
+  p2.pic=44
+  t202.txt="BELARUS"
+}else if(tolets2.txt=="EW")//Belarus
+{
+  p2.pic=44
+  t202.txt="BELARUS"
+}else if(tolets2.txt=="ON")//Belgium
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="OO")//BELGIUM
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="OP")//Belgium
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="OQ")//BELGIUM
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="OR")//Belgium
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="OS")//Belgium
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="OT")//Belgium
+{
+  p2.pic=45
+  t202.txt="BELGIUM"
+}else if(tolets2.txt=="V3")//Belize
+{
+  p2.pic=46
+  t202.txt="BELIZE"
+}else if(tolets2.txt=="TY")//Benin
+{
+  p2.pic=47
+  t202.txt="BENIN"
+}else if(tolets2.txt=="A5")//Bhutan
+{
+  p2.pic=49
+  t202.txt="BHUTAN"
+}else if(tolets2.txt=="CP")//Bolivia
+{
+  p2.pic=50
+  t202.txt="BOLIVIA"
+}else if(tolets2.txt=="T9")//Bosnia-Herzegovina
+{
+  p2.pic=51
+  t202.txt="BOSNIA-HERZEGVINA"
+}else if(tolets2.txt=="A2")//Botswana
+{
+  p2.pic=52
+  t202.txt="BOTSWANA"
+}else if(tolets2.txt=="PP")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PQ")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PR")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PS")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PT")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PU")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PV")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PW")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PX")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="PY")//Brazil
+{
+  p2.pic=53
+  t202.txt="BRAZIL"
+}else if(tolets2.txt=="V8")//Brunei
+{
+  p2.pic=54
+  t202.txt="BRUNEI"
+}else if(tolets2.txt=="LZ")//Bulgaria
+{
+  p2.pic=55
+  t202.txt="BULGARIA"
+}else if(tolets2.txt=="XT")//Burkino Fasso
+{
+  p2.pic=56
+  t202.txt="BURKINO FASSO"
+}else if(tolets2.txt=="9U")//Burundi
+{
+  p2.pic=57
+  t202.txt="BURUNDI"
+}else if(tolets2.txt=="TJ")//Camroon
+{
+  p2.pic=58
+  t202.txt="CAMEROON"
+}else if(tolets2.txt=="VA")//Canada
+{
+  p2.pic=59
+  t202.txt="CANADA"
+}else if(tolets2.txt=="VE")//Canada
+{
+  p2.pic=59
+  t202.txt="CANADA"
+}else if(tolets2.txt=="VC")//Canada
+{
+  p2.pic=59
+  t202.txt="CANADA"
+}else if(tolets2.txt=="VO")//Canada
+{
+  p2.pic=59
+  t202.txt="CANADA"
+}else if(tolets2.txt=="VY")//Canada
+{
+  p2.pic=59
+  t202.txt="CANADA"
+}else if(tolets2.txt=="CI")//Canada
+{
+  p2.pic=59
+  t202.txt="CANADA"
+}else if(tolets2.txt=="D4")//Vape Verde Rep.
+{
+  p2.pic=61
+  t202.txt="CAPE VERDE Rep."
+}else if(tolets2.txt=="ZF")//Cayman Isl
+{
+  p2.pic=62
+  t202.txt="CAYMAN Isl"
+}else if(tolets2.txt=="TL")//Central African Rep.
+{
+  p2.pic=63
+  t202.txt="Central AFRICAN Rep"
+}else if(tolets2.txt=="TT")//Chad
+{
+  p2.pic=65
+  t202.txt="CHAD"
+}else if(tolets2.txt=="TX")//Chesterfield Isl
+{
+  p2.pic=18
+  t202.txt="CHESTERFIELD Isl"
+}else if(tolets2.txt=="CE")//Chile
+{
+  p2.pic=66
+  t202.txt="CHILE"
+}else if(tolets2.txt=="CA")//Chile
+{
+  p2.pic=66
+  t202.txt="CHILE"
+}else if(tolets2.txt=="CD")//Chile
+{
+  p2.pic=66
+  t202.txt="CHILE"
+}else if(tolets2.txt=="XQ")//Chile
+{
+  p2.pic=66
+  t202.txt="CHILE"
+}else if(tolets2.txt=="BG")//China
+{
+  p2.pic=67
+  t202.txt="CHINA"
+}else if(tolets2.txt=="BH")//China
+{
+  p2.pic=67
+  t202.txt="CHINA"
+}else if(tolets2.txt=="BI")//China
+{
+  p2.pic=67
+  t202.txt="CHINA"
+}else if(tolets2.txt=="BX")//China
+{
+  p2.pic=67
+  t202.txt="CHINA"
+}else if(tolets2.txt=="BY")//China
+{
+  p2.pic=67
+  t202.txt="CHNIA"
+}else if(tolets2.txt=="BZ")//China
+{
+  p2.pic=67
+  t202.txt="CHINA"
+}else if(tolets2.txt=="HK")//Colombia
+{
+  p2.pic=69
+  t202.txt="COLOMBIA"
+}else if(tolets2.txt=="HJ")//Colombia
+{
+  p2.pic=69
+  t202.txt="COLOMBIA"
+}else if(tolets2.txt=="D6")//Comoros
+{
+  p2.pic=70
+  t202.txt="COMOROS"
+}else if(tolets2.txt=="TN")//Congo
+{
+  p2.pic=71
+  t202.txt="CONGO"
+}else if(tolets2.txt=="9Q")//Congo Rep
+{
+  p2.pic=18
+  t202.txt="CONGO Rep"
+}else if(tolets2.txt=="9T")//Congo Rep
+{
+  p2.pic=18
+  t202.txt="CONGO Rep"
+}else if(tolets2.txt=="TK")//Corsica
+{
+  p2.pic=73
+  t202.txt="CORSICA"
+}else if(tolets2.txt=="TI")//Costa Rica
+{
+  p2.pic=74
+  t202.txt="COSTA RICA"
+}else if(tolets2.txt=="TE")//Costa Rica
+{
+  p2.pic=74
+  t202.txt="COSTA RICA"
+}else if(tolets2.txt=="SV")//Creece
+{
+  p2.pic=75
+  t202.txt="CREECE"
+}else if(tolets2.txt=="SZ")//Creece
+{
+  p2.pic=75
+  t202.txt="CREECE"
+}else if(tolets2.txt=="J4")//Creece
+{
+  p2.pic=75
+  t202.txt="CREECE"
+}else if(tolets2.txt=="9A")//Croatia
+{
+  p2.pic=76
+  t202.txt="CROATIA"
+}else if(tolets2.txt=="CM")//Cuba
+{
+  p2.pic=77
+  t202.txt="CUBA"
+}else if(tolets2.txt=="CO")//Cuba
+{
+  p2.pic=77
+  t202.txt="CUBA"
+}else if(tolets2.txt=="5B")//Cyprus
+{
+  p2.pic=78
+  t202.txt="CYPRUS"
+}else if(tolets2.txt=="C4")//Cyprus
+{
+  p2.pic=78
+  t202.txt="CYPRUS"
+}else if(tolets2.txt=="P3")//Cyprus
+{
+  p2.pic=78
+  t202.txt="CYPRUS"
+}else if(tolets2.txt=="OK")//Czech Republic
+{
+  p2.pic=79
+  t202.txt="CZECH Rep"
+}else if(tolets2.txt=="OL")//Czech Republic
+{
+  p2.pic=79
+  t202.txt="CZECH Rep"
+}else if(tolets2.txt=="OZ")//Denmark
+{
+  p2.pic=80
+  t202.txt="DENMARK"
+}else if(tolets2.txt=="J2")//Djibouti
+{
+  p2.pic=81
+  t202.txt="DJIBOUTI"
+}else if(tolets2.txt=="HI")//Dominican Rep
+{
+  p2.pic=82
+  t202.txt="DOMINICAN Rep"
+}else if(tolets2.txt=="J7")//Dominican Rep
+{
+  p2.pic=82
+  t202.txt="DOMINICAN Rep"
+}else if(tolets2.txt=="J8")//Dt. Vincent & Granadina
+{
+  p2.pic=18
+  t202.txt="Det VINCENT/GRANADINA"
+}else if(tolets2.txt=="HC")//Ecuador
+{
+  p2.pic=84
+  t202.txt="ECUADOR"
+}else if(tolets2.txt=="HD")//Ecuador
+{
+  p2.pic=84
+  t202.txt="ECUADOR"
+}else if(tolets2.txt=="SU")//Egypt
+{
+  p2.pic=85
+  t202.txt="EGYPT"
+}else if(tolets2.txt=="YS")//El Salvador
+{
+  p2.pic=86
+  t202.txt="EL SALVADOR"
+}else if(tolets2.txt=="GX")//England
+{
+  p2.pic=87
+  t202.txt="ENGLAND"
+}else if(tolets2.txt=="MX")//England
+{
+  p2.pic=87
+  t202.txt="ENGLAND"
+}else if(tolets2.txt=="2E")//United Kingdom
+{
+  p2.pic=244
+  t202.txt="UNITED KINGDOM"
+}else if(tolets2.txt=="3C")//Equatorial Guinea
+{
+  p2.pic=88
+  t202.txt="Equat.GUINEA"
+}else if(tolets2.txt=="E3")//Erythrea
+{
+  p2.pic=89
+  t202.txt="ERYTHREA"
+}else if(tolets2.txt=="ES")//Estonia
+{
+  p2.pic=90
+  t202.txt="ESTONIA"
+}else if(tolets2.txt=="ET")//Ethiopia
+{
+  p2.pic=91
+  t202.txt="ETHIOPIA"
+}else if(tolets2.txt=="OY")//Faroe Isl
+{
+  p2.pic=93
+  t202.txt="FAROE Isl"
+}else if(tolets2.txt=="OG")//Finland
+{
+  p2.pic=95
+  t202.txt="FINLAND"
+}else if(tolets2.txt=="OH")//Finland
+{
+  p2.pic=95
+  t202.txt="FINLAND"
+}else if(tolets2.txt=="OI")//Finland
+{
+  p2.pic=95
+  t202.txt="FINLAND"
+}else if(tolets2.txt=="FA")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="FB")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="FC")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="FD")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="FE")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="FF")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="TM")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="F1")//France
+{
+  p2.pic=96
+  t202.txt="FRANCE"
+}else if(tolets2.txt=="FJ")//French St. Martin (St. Maarten)
+{
+  p2.pic=18
+  t202.txt="Fr.St. MARTIN"
+}else if(tolets2.txt=="FS")//French St. Martin (St. Maarten)
+{
+  p2.pic=18
+  t202.txt="Fr.St. MARTIN"
+}else if(tolets2.txt=="TR")//Gabon
+{
+  p2.pic=97
+  t202.txt="GABON"
+}else if(tolets2.txt=="C5")//Gambia
+{
+  p2.pic=99
+  t202.txt="GAMBIA"
+}else if(tolets2.txt=="4L")//Georgia
+{
+  p2.pic=100
+  t202.txt="GEORGIA"
+}else if(tolets2.txt=="DA")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DB")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DC")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DD")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DE")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DF")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DG")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DH")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DI")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DJ")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DK")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DL")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DM")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="DO")//Germany
+{
+  p2.pic=101
+  t202.txt="GERMANY"
+}else if(tolets2.txt=="GU")//Guernsey-UK
+{
+  p2.pic=549
+  t202.txt="GUERNSNEY-UK"
+}else if(tolets2.txt=="MU")//Guernsey-UK
+{
+  p2.pic=549
+  t202.txt="GUERNSNEY-UK"
+}else if(tolets2.txt=="GP")//Guernsey-UK
+{
+  p2.pic=549
+  t202.txt="GUERNSNEY-UK"
+}else if(tolets2.txt=="MP")//Guernsey-UK
+{
+  p2.pic=549
+  t202.txt="GUERNSNEY-UK"
+}else if(tolets2.txt=="DW")//PHILIPPINES
+{
+  p2.pic=185
+  t202.txt="PHILIPPINES"
+}else if(tolets2.txt=="9G")//Ghana
+{
+  p2.pic=102
+  t202.txt="GHANA"
+}else if(tolets2.txt=="OX")//Greenland
+{
+  p2.pic=103
+  t202.txt="GREENLAND"
+}else if(tolets2.txt=="J3")//Grenada
+{
+  p2.pic=104
+  t202.txt="GRENADA"
+}else if(tolets2.txt=="FG")//Guadaloupe
+{
+  p2.pic=18
+  t202.txt="GUADALOUPE"
+}else if(tolets2.txt=="TG")//Guatamala
+{
+  p2.pic=105
+  t202.txt="GUATAMALA"
+}else if(tolets2.txt=="TD")//Guatamala
+{
+  p2.pic=105
+  t202.txt="GUATAMALA"
+}else if(tolets2.txt=="3X")//Guinea
+{
+  p2.pic=107
+  t202.txt="GUINEA"
+}else if(tolets2.txt=="J5")//Guinea Bissau
+{
+  p2.pic=108
+  t202.txt="GUINEA BISSAU"
+}else if(tolets2.txt=="8R")//Guyana
+{
+  p2.pic=109
+  t202.txt="GUYANA"
+}else if(tolets2.txt=="HH")//Haiti
+{
+  p2.pic=110
+  t202.txt="HAITI"
+}else if(tolets2.txt=="HR")//Honduras
+{
+  p2.pic=112
+  t202.txt="HONDURAS"
+}else if(tolets2.txt=="HQ")//Honduras
+{
+  p2.pic=112
+  t202.txt="HONDURAS"
+}else if(tolets2.txt=="HA")//Hungary
+{
+  p2.pic=114
+  t202.txt="HUNGARY"
+}else if(tolets2.txt=="HG")//Hungary
+{
+  p2.pic=114
+  t202.txt="HUNGARY"
+}else if(tolets2.txt=="TF")//Iceland
+{
+  p2.pic=115
+  t202.txt="ICELAND"
+}else if(tolets2.txt=="VU")//India
+{
+  p2.pic=116
+  t202.txt="INDIA"
+}else if(tolets2.txt=="YB")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="YC")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="YD")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="YE")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="YF")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="YG")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="YH")//Indonesia
+{
+  p2.pic=117
+  t202.txt="INDONESIA"
+}else if(tolets2.txt=="EP")//Iran
+{
+  p2.pic=118
+  t202.txt="IRAN"
+}else if(tolets2.txt=="EQ")//Iran
+{
+  p2.pic=118
+  t202.txt="IRAN"
+}else if(tolets2.txt=="YI")//Iraq
+{
+  p2.pic=119
+  t202.txt="IRAQ"
+}else if(tolets2.txt=="EI")//Ireland
+{
+  p2.pic=120
+  t202.txt="IRELAND"
+}else if(tolets2.txt=="EJ")//Ireland
+{
+  p2.pic=120
+  t202.txt="IRELAND"
+}else if(tolets2.txt=="GD")//Isl of Man
+{
+  p2.pic=121
+  t202.txt="Isl of MAN"
+}else if(tolets2.txt=="GT")//Isle of Man
+{
+  p2.pic=121
+  t202.txt="Isl of MAN"
+}else if(tolets2.txt=="MD")//Isl of Man
+{
+  p2.pic=121
+  t202.txt="Isl of MAN"
+}else if(tolets2.txt=="MT")//Isl of Man
+{
+  p2.pic=121
+  t202.txt="Isl of MAN"
+}else if(tolets2.txt=="4X")//Israel
+{
+  p2.pic=122
+  t202.txt="ISRAEL"
+}else if(tolets2.txt=="4Z")//Israel
+{
+  p2.pic=122
+  t202.txt="ISRAEL"
+}else if(tolets2.txt=="TU")//Ivory Coast
+{
+  p2.pic=124
+  t202.txt="IVORY COAST"
+}else if(tolets2.txt=="6Y")//Jamaica
+{
+  p2.pic=125
+  t202.txt="JAMAICA"
+}else if(tolets2.txt=="JX")//Jan Mayen Isl
+{
+  p2.pic=177
+  t202.txt="JAN MAYEN Isl"
+}else if(tolets2.txt=="JA")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JB")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JC")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JD")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JE")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JF")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JG")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JH")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JI")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JJ")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JK")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JL")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JM")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JN")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JO")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JP")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JQ")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JR")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="JS")//Japan
+{
+  p2.pic=126
+  t202.txt="JAPAN"
+}else if(tolets2.txt=="GJ")//Jersey-UK
+{
+  p2.pic=285
+  t202.txt="JERSEY-UK"
+}else if(tolets2.txt=="GT")//Jersey-UK
+{
+  p2.pic=285
+  t202.txt="JERSEY-UK"
+}else if(tolets2.txt=="GH")//Jersey-UK
+{
+  p2.pic=285
+  t202.txt="JERSEY-UK"
+}else if(tolets2.txt=="MH")//Jersey-UK
+{
+  p2.pic=285
+  t202.txt="JERSEY-UK"
+}else if(tolets2.txt=="JY")//Jordan
+{
+  p2.pic=127
+  t202.txt="JORDAN"
+}else if(tolets2.txt=="XU")//Kampuchea
+{
+  p2.pic=128
+  t202.txt="KAMPUCHEA"
+}else if(tolets2.txt=="UN")//Kazakhstan
+{
+  p2.pic=129
+  t202.txt="KAZAKHSTAN"
+}else if(tolets2.txt=="UO")//Kazakhstan
+{
+  p2.pic=129
+  t202.txt="KAZAKHSTAN"
+}else if(tolets2.txt=="UP")//Kazakhstan
+{
+  p2.pic=129
+  t202.txt="KZAKHSTAN"
+}else if(tolets2.txt=="UQ")//Kazakhstan
+{
+  p2.pic=129
+  t202.txt="KZAKHSTAN"
+}else if(tolets2.txt=="5Y")//Kenya
+{
+  p2.pic=130
+  t202.txt="KENYA"
+}else if(tolets2.txt=="5Z")//Kenya
+{
+  p2.pic=131
+  t202.txt="KENYA"
+}else if(tolets2.txt=="9K")//Kuwait
+{
+  p2.pic=132
+  t202.txt="KUWAIT"
+}else if(tolets2.txt=="EX")//Kyrzygstan
+{
+  p2.pic=133
+  t202.txt="KYRZYGSTAN"
+}else if(tolets2.txt=="XW")//Laos
+{
+  p2.pic=134
+  t202.txt="LAOS"
+}else if(tolets2.txt=="YL")//Latvia
+{
+  p2.pic=135
+  t202.txt="LATVIA"
+}else if(tolets2.txt=="OD")//Lebanon
+{
+  p2.pic=136
+  t202.txt="LEBANON"
+}else if(tolets2.txt=="7P")//Lesotho
+{
+  p2.pic=137
+  t202.txt="LESOTHO"
+}else if(tolets2.txt=="EL")//Liberia
+{
+  p2.pic=138
+  t202.txt="LIBERIA"
+}else if(tolets2.txt=="5A")//Libya
+{
+  p2.pic=139
+  t202.txt="LIBYA"
+}else if(tolets2.txt=="LY")//Lithuania
+{
+  p2.pic=141
+  t202.txt="LITHUANIA"
+}else if(tolets2.txt=="LW")//Luxembourg
+{
+  p2.pic=142
+  t202.txt="LUXEMBOURG"
+}else if(tolets2.txt=="LX")//Luxembourg
+{
+  p2.pic=142
+  t202.txt="LUXEMBOURG"
+}else if(tolets2.txt=="Z3")//Macedonia
+{
+  p2.pic=144
+  t202.txt="MACEDONIA"
+}else if(tolets2.txt=="5R")//Madagascar
+{
+  p2.pic=145
+  t202.txt="MADAGASCAR"
+}else if(tolets2.txt=="5S")//Madagascar
+{
+  p2.pic=146
+  t202.txt="MADAGASCAR"
+}else if(tolets2.txt=="7Q")//Malawi
+{
+  p2.pic=147
+  t202.txt="MALAWI"
+}else if(tolets2.txt=="8Q")//Maldives
+{
+  p2.pic=148
+  t202.txt="MALDIVES"
+}else if(tolets2.txt=="TZ")//Mali
+{
+  p2.pic=149
+  t202.txt="MALI"
+}else if(tolets2.txt=="9H")//Malta
+{
+  p2.pic=151
+  t202.txt="MALTA"
+}else if(tolets2.txt=="V7")//Marshal Isl
+{
+  p2.pic=153
+  t202.txt="MARSHALL Isl"
+}else if(tolets2.txt=="FM")//Martinique
+{
+  p2.pic=154
+  t202.txt="MARTINIQUE"
+}else if(tolets2.txt=="5T")//Mauritania
+{
+  p2.pic=155
+  t202.txt="MAURITANIA"
+}else if(tolets2.txt=="FH")//Mayotte
+{
+  p2.pic=18
+  t202.txt="MAYOTTE"
+}else if(tolets2.txt=="XA")//MEXICO
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XB")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XC")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XD")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XE")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XF")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XH")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="XI")//Mexico
+{
+  p2.pic=157
+  t202.txt="MEXICO"
+}else if(tolets2.txt=="V6")//Micronesia-French
+{
+  p2.pic=158
+  t202.txt="MICRONESIA (French)"
+}else if(tolets2.txt=="ER")//Moldova
+{
+  p2.pic=159
+  t202.txt="MOLDOVA"
+}else if(tolets2.txt=="3A")//Monaco
+{
+  p2.pic=160
+  t202.txt="MONACO"
+}else if(tolets2.txt=="JT")//MONGOLIA
+{
+  p2.pic=161
+  t202.txt="MONGOLIA"
+}else if(tolets2.txt=="JV")//MONGOLIA
+{
+  p2.pic=161
+  t202.txt="MONGOLIA"
+}else if(tolets2.txt=="4O")//MONTE NEGRO
+{
+  p2.pic=162
+  t202.txt="MONTE NEGRO"
+}else if(tolets2.txt=="CN")//MOROCCO
+{
+  p2.pic=164
+  t202.txt="MOROCCO"
+}else if(tolets2.txt=="SY")//MOUNT ATHOS (GREECE)
+{
+  p2.pic=75
+  t202.txt="Mt.ATHOS (GREECE)"
+}else if(tolets2.txt=="C9")//MOZAMBIQUE
+{
+  p2.pic=165
+  t202.txt="MOZAMBIQUE"
+}else if(tolets2.txt=="XZ")//MYANMAR
+{
+  p2.pic=166
+  t202.txt="MYANMAR"
+}else if(tolets2.txt=="XY")//MYANMAR
+{
+  p2.pic=166
+  t202.txt="MYANMAR"
+}else if(tolets2.txt=="V5")//NAMIBIA
+{
+  p2.pic=167
+  t202.txt="NAMIBIA"
+}else if(tolets2.txt=="c2")//NAURU Rep
+{
+  p2.pic=168
+  t202.txt="NAURU Rep"
+}else if(tolets2.txt=="9N")//NEPAL
+{
+  p2.pic=169
+  t202.txt="NEPAL"
+}else if(tolets2.txt=="FK")//NEW CALEDONIA
+{
+  p2.pic=170
+  t202.txt="NEW CALEDONIA"
+}else if(tolets2.txt=="ZL")//NEW ZEALAND
+{
+  p2.pic=171
+  t202.txt="NEW ZEALAND"
+}else if(tolets2.txt=="ZM")//NEW ZEALAND
+{
+  p2.pic=171
+  t202.txt="NEW ZEALAND"
+}else if(tolets2.txt=="YN")//NICARAGUA
+{
+  p2.pic=172
+  t202.txt="NIGARAGUA"
+}else if(tolets2.txt=="5U")//NIGER
+{
+  p2.pic=173
+  t202.txt="NIGER"
+}else if(tolets2.txt=="5N")//NIGERIA
+{
+  p2.pic=174
+  t202.txt="NIGERIA"
+}else if(tolets2.txt=="5O")//NIGERIA
+{
+  p2.pic=175
+  t202.txt="NIGERIA"
+}else if(tolets2.txt=="P5")//NORTH KOREA
+{
+  p2.pic=176
+  t202.txt="NORTH KOREA"
+}else if(tolets2.txt=="GI")//NORTHERN IRELAND
+{
+  p2.pic=286
+  t202.txt="NORTHERN IRELAND"
+}else if(tolets2.txt=="MI")//NORTHERN IRELAND
+{
+  p2.pic=286
+  t202.txt="NORTHERN IRELAND"
+}else if(tolets2.txt=="GN")//NORTHERN IRELAND
+{
+  p2.pic=286
+  t202.txt="NORTHERN IRELAND"
+}else if(tolets2.txt=="MN")//NORTHERN IRELAND
+{
+  p2.pic=286
+  t202.txt="NORTHERN IRELAND"
+}else if(tolets2.txt=="LA")//NORWAY
+{
+  p2.pic=177
+  t202.txt="NORWAY"
+}else if(tolets2.txt=="LB")//NORWAY
+{
+  p2.pic=177
+  t202.txt="NORWAY"
+}else if(tolets2.txt=="LN")//NORWAY
+{
+  p2.pic=177
+  t202.txt="NORWAY"
+}else if(tolets2.txt=="A4")//OMAN & MUSCAT
+{
+  p2.pic=178
+  t202.txt="OMAN/MUSCAT"
+}else if(tolets2.txt=="AP")//PAKISTAN
+{
+  p2.pic=179
+  t202.txt="PAKISTAN"
+}else if(tolets2.txt=="AQ")//PAKISTAN
+{
+  p2.pic=179
+  t202.txt="PAKISTAN"
+}else if(tolets2.txt=="AR")//PAKISTAN
+{
+  p2.pic=179
+  t202.txt="PAKISTAN"
+}else if(tolets2.txt=="AS")//PAKISTAN
+{
+  p2.pic=179
+  t202.txt="PAKISTAN"
+}else if(tolets2.txt=="E4")//PALESTINA
+{
+  p2.pic=180
+  t202.txt="PALESTINA"
+}else if(tolets2.txt=="HP")//PANAMA
+{
+  p2.pic=181
+  t202.txt="PANAMA"
+}else if(tolets2.txt=="HO")//PANAMA
+{
+  p2.pic=181
+  t202.txt="PANAMA"
+}else if(tolets2.txt=="3E")//PANAMA
+{
+  p2.pic=181
+  t202.txt="PANAMA"
+}else if(tolets2.txt=="P2")//PAPUA NEW GUINEA
+{
+  p2.pic=182
+  t202.txt="PAPUA NEW GUINEA"
+}else if(tolets2.txt=="ZP")//PARAGUAY
+{
+  p2.pic=183
+  t202.txt="PARAGUAY"
+}else if(tolets2.txt=="OA")//PERU
+{
+  p2.pic=184
+  t202.txt="PERU"
+}else if(tolets2.txt=="OC")//PERU
+{
+  p2.pic=184
+  t202.txt="PERU"
+}else if(tolets2.txt=="DU")//PHILIPPINES
+{
+  p2.pic=185
+  t202.txt="PHILIPPINES"
+}else if(tolets2.txt=="DZ")//PHILIPPINES
+{
+  p2.pic=185
+  t202.txt="PHILIPPINES"
+}else if(tolets2.txt=="DV")//PHILIPPINES
+{
+  p2.pic=185
+  t202.txt="PHILIPPINES"
+}else if(tolets2.txt=="DW")//PHILIPPINES
+{
+  p2.pic=185
+  t202.txt="PHILIPPINES"
+}else if(tolets2.txt=="SN")//POLAND
+{
+  p2.pic=187
+  t202.txt="POLAND"
+}else if(tolets2.txt=="SO")//POLAND
+{
+  p2.pic=187
+  t202.txt="POLAND"
+}else if(tolets2.txt=="SP")//POLAND
+{
+  p2.pic=187
+  t202.txt="POLAND"
+}else if(tolets2.txt=="SQ")//POLAND
+{
+  p2.pic=187
+  t202.txt="POLAND"
+}else if(tolets2.txt=="SR")//POLAND
+{
+  p2.pic=187
+  t202.txt="POLAND"
+}else if(tolets2.txt=="3Z")//POLAND
+{
+  p2.pic=187
+  t202.txt="POLAND"
+}else if(tolets2.txt=="FO")//FRENCH POLINESIA
+{
+  p2.pic=188
+  t202.txt="POLYNESIA (FRENCH)"
+}else if(tolets2.txt=="CT")//PORTUGAL
+{
+  p2.pic=189
+  t202.txt="PORTUGAL"
+}else if(tolets2.txt=="CS")//PORTUGAL
+{
+  p2.pic=189
+  t202.txt="PORTUGAL"
+}else if(tolets2.txt=="CR")//PORTUGAL
+{
+  p2.pic=189
+  t202.txt="PORTUGAL"
+}else if(tolets2.txt=="CQ")//PORTUGAL
+{
+  p2.pic=189
+  t202.txt="PORTUGAL"
+}else if(tolets2.txt=="A7")//QATAR
+{
+  p2.pic=191
+  t202.txt="QATAR"
+}else if(tolets2.txt=="FR")//REUNION
+{
+  p2.pic=192
+  t202.txt="REUNION"
+}else if(tolets2.txt=="YO")//ROMANIA
+{
+  p2.pic=193
+  t202.txt="ROMANIA"
+}else if(tolets2.txt=="YP")//ROMANIA
+{
+  p2.pic=193
+  t202.txt="ROMANIA"
+}else if(tolets2.txt=="YQ")//ROMANIA
+{
+  p2.pic=193
+  t202.txt="ROMANIA"
+}else if(tolets2.txt=="YR")//ROMANIA
+{
+  p2.pic=193
+  t202.txt="ROMANIA"
+}else if(tolets2.txt=="9X")//RWANDA
+{
+  p2.pic=195
+  t202.txt="RWANDA"
+}else if(tolets2.txt=="5W")//Western SAMOA
+{
+  p2.pic=197
+  t202.txt="Western SAMOA"
+}else if(tolets2.txt=="T7")//SAN MARINO
+{
+  p2.pic=198
+  t202.txt="SAN MARINO"
+}else if(tolets2.txt=="S9")//SAO TOME & PRINCIPE
+{
+  p2.pic=200
+  t202.txt="SAN TOME & PRINCIPE"
+}else if(tolets2.txt=="HZ")//SAUDI ARABIA
+{
+  p2.pic=202
+  t202.txt="SAUDI ARABIA"
+}else if(tolets2.txt=="7Z")//SAUDI ARABIA
+{
+  p2.pic=202
+  t202.txt="SAUDI ARABIA"
+}else if(tolets2.txt=="GM")//SCOTLAND
+{
+  p2.pic=203
+  t202.txt="SCOTLAND"
+}else if(tolets2.txt=="GS")//SCOTLAND
+{
+  p2.pic=203
+  t202.txt="SCOTLAND"
+}else if(tolets2.txt=="MM")//SCOTLAND
+{
+  p2.pic=203
+  t202.txt="SCOTLAND"
+}else if(tolets2.txt=="MS")//SCOTLAND
+{
+  p2.pic=203
+  t202.txt="SCOTLAND"
+}else if(tolets2.txt=="2M")//SCOTLAND
+{
+  p2.pic=203
+  t202.txt="SCOTLAND"
+}else if(tolets2.txt=="6V")//SENEGAL
+{
+  p2.pic=204
+  t202.txt="SENEGAL"
+}else if(tolets2.txt=="6W")//SENEGAL
+{
+  p2.pic=204
+  t202.txt="SENEGAL"
+}else if(tolets2.txt=="S7")//SYECHELLES
+{
+  p2.pic=206
+  t202.txt="SEYCHELLES"
+}else if(tolets2.txt=="9L")//SIERRA LEONE
+{
+  p2.pic=207
+  t202.txt="SIERRA LEONE"
+}else if(tolets2.txt=="9V")//SINGAPORE
+{
+  p2.pic=208
+  t202.txt="SINGAPORE"
+}else if(tolets2.txt=="OM")//SLOVAK Rep
+{
+  p2.pic=209
+  t202.txt="SLOVAK Rep"
+}else if(tolets2.txt=="S5")//SLOVENIA
+{
+  p2.pic=210
+  t202.txt="SLOVENIA"
+}else if(tolets2.txt=="H4")//SOLOMON Isl
+{
+  p2.pic=211
+  t202.txt="SOLOMON Isl"
+}else if(tolets2.txt=="T5")//SOMALIA
+{
+  p2.pic=212
+  t202.txt="SOMALIA"
+}else if(tolets2.txt=="6O")//SOMALIA
+{
+  p2.pic=212
+  t202.txt="SOMALIA"
+}else if(tolets2.txt=="ZR")//SOUTH AFRICA
+{
+  p2.pic=213
+  t202.txt="SOUTH AFRICA"
+}else if(tolets2.txt=="ZS")//SOUTH AFRICA
+{
+  p2.pic=213
+  t202.txt="SOUTH AFRICA"
+}else if(tolets2.txt=="ZT")//SOUTH AFRICA
+{
+  p2.pic=213
+  t202.txt="SOUTH AFRICA"
+}else if(tolets2.txt=="ZU")//SOUTH AFRICA
+{
+  p2.pic=213
+  t202.txt="SOUTH AFRICA"
+}else if(tolets2.txt=="LU")//SOUTH GEORGIE Isl
+{
+  p2.pic=18
+  t202.txt="SOUTH GEORGIE Isl"
+}else if(tolets2.txt=="HL")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="HM")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="DS")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="6K")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="6L")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="6M")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="6N")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="D7")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="D9")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="DT")//SOUTH KOREA
+{
+  p2.pic=214
+  t202.txt="SOUTH KOREA"
+}else if(tolets2.txt=="EA")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="EB")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="EC")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="ED")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="EE")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="EF")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="EG")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="EH")//SPAIN
+{
+  p2.pic=216
+  t202.txt="SPAIN"
+}else if(tolets2.txt=="1S")//SPRATLY Isl
+{
+  p2.pic=18
+  t202.txt="SPRATLY Isl"
+}else if(tolets2.txt=="4P")//SRI LANKA
+{
+  p2.pic=217
+  t202.txt="SRI LANKA"
+}else if(tolets2.txt=="4Q")//SRI LANKA
+{
+  p2.pic=217
+  t202.txt="SRI LANKA"
+}else if(tolets2.txt=="4R")//SRI LANKA
+{
+  p2.pic=217
+  t202.txt="SRI LANKA"
+}else if(tolets2.txt=="4S")//SRI LANKA
+{
+  p2.pic=217
+  t202.txt="SRI LANKA"
+}else if(tolets2.txt=="FP")//ST PIERERE & MIQUELON
+{
+  p2.pic=18
+  t202.txt="ST PIERRE & MIQUELON"
+}else if(tolets2.txt=="J6")//ST LUCIA
+{
+  p2.pic=282
+  t202.txt="ST LUCIA"
+}else if(tolets2.txt=="V4")//ST-KITTS/NEVIS
+{
+  p2.pic=218
+  t202.txt="St.KITTS/NEVIS"
+}else if(tolets2.txt=="ST")//SUDAN
+{
+  p2.pic=220
+  t202.txt="SUDAN"
+}else if(tolets2.txt=="PZ")//SURINAM
+{
+  p2.pic=221
+  t202.txt="SURINAM"
+}else if(tolets2.txt=="JW")//SVALBARS Isl (SPITSBERGEN)
+{
+  p2.pic=18
+  t202.txt="SVALBARD Isl"
+}else if(tolets2.txt=="SA")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SC")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SD")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SE")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SF")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SG")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SH")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SI")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SJ")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SK")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SL")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="SM")//SWEDEN
+{
+  p2.pic=223
+  t202.txt="SWEDEN"
+}else if(tolets2.txt=="HB")//Switzerland
+{
+  p2.pic=224
+  t202.txt="Switzerland"
+}else if(tolets2.txt=="YK")//SYRIA
+{
+  p2.pic=225
+  t202.txt="SYRIA"
+}else if(tolets2.txt=="BV")//TAIWAN
+{
+  p2.pic=227
+  t202.txt="TAIWAN"
+}else if(tolets2.txt=="EY")//TAJIKISTAN
+{
+  p2.pic=228
+  t202.txt="TAJIKISTAN"
+}else if(tolets2.txt=="5H")//TANZANIA
+{
+  p2.pic=229
+  t202.txt="TANZANIA"
+}else if(tolets2.txt=="5I")//TANZANIA
+{
+  p2.pic=229
+  t202.txt="TANZANIA"
+}else if(tolets2.txt=="HS")//THAILAND
+{
+  p2.pic=230
+  t202.txt="THAILAND"
+}else if(tolets2.txt=="E2")//THAILAND
+{
+  p2.pic=230
+  t202.txt="THAILAND"
+}else if(tolets2.txt=="PA")//THE NETHERLANDS
+{
+  p2.pic=231
+  t202.txt="THE NETHERLANDS"
+}else if(tolets2.txt=="PB")//THE NETHERLANDS
+{
+  p2.pic=231
+  t202.txt="THE NETHERLANDS"
+}else if(tolets2.txt=="PD")//THE NETHERLANDS
+{
+  p2.pic=231
+  t202.txt="THE NETHERLANDS"
+}else if(tolets2.txt=="PE")//THE NETHERLANDS
+{
+  p2.pic=231
+  t202.txt="THE NETHERLANDS"
+}else if(tolets2.txt=="PH")//THE NETHERLANDS
+{
+  p2.pic=231
+  t202.txt="THE NETHERLANDS"
+}else if(tolets2.txt=="PI")//THE NETHERLANDS
+{
+  p2.pic=231
+  t202.txt="THE NETHERLANDS"
+}else if(tolets2.txt=="4W")//TIMOR (East)
+{
+  p2.pic=232
+  t202.txt="EAST TIMOR"
+}else if(tolets2.txt=="5V")//TOGO
+{
+  p2.pic=233
+  t202.txt="TOGO"
+}else if(tolets2.txt=="A3")//TONGA Isl
+{
+  p2.pic=235
+  t202.txt="TONGA Isl"
+}else if(tolets2.txt=="9Y")//TRINIDAD & TOBAGO
+{
+  p2.pic=236
+  t202.txt="TRINIDAD/TOBAGO"
+}else if(tolets2.txt=="9Z")//TRINIDAD & TOBAGO
+{
+  p2.pic=226
+  t202.txt="TRINIDAD/TOBAGO"
+}else if(tolets2.txt=="3V")//TUNESIA
+{
+  p2.pic=237
+  t202.txt="TUNESIA"
+}else if(tolets2.txt=="TA")//TURKEY
+{
+  p2.pic=238
+  t202.txt="TURKEY"
+}else if(tolets2.txt=="TB")//TURKEY
+{
+  p2.pic=238
+  t202.txt="TURKEY"
+}else if(tolets2.txt=="TC")//TURKEY
+{
+  p2.pic=238
+  t202.txt="TURKEY"
+}else if(tolets2.txt=="EZ")//TURLMENISTAN
+{
+  p2.pic=239
+  t202.txt="TURKMENISTAN"
+}else if(tolets2.txt=="T2")//TUVALU
+{
+  p2.pic=240
+  t202.txt="TUVALU"
+}else if(tolets2.txt=="5X")//UGANDA
+{
+  p2.pic=241
+  t202.txt="UGANDA"
+}else if(tolets2.txt=="UR")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="US")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UT")//UKRAINE
+{
+  p2.pic=424
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UU")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UV")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UW")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UX")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UY")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="UZ")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="EM")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="EO")//UKRAINE
+{
+  p2.pic=242
+  t202.txt="UKRAINE"
+}else if(tolets2.txt=="CV")//URUGUAY
+{
+  p2.pic=245
+  t202.txt="URUGUAY"
+}else if(tolets2.txt=="CW")//URUGUAY
+{
+  p2.pic=245
+  t202.txt="URUGUAY"
+}else if(tolets2.txt=="CX")//URUGUAY
+{
+  p2.pic=245
+  t202.txt="URUGUAY"
+}else if(tolets2.txt=="AA")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AB")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AC")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AD")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AE")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AF")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AH")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AI")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AJ")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="AK")//USA
+{
+  p2.pic=246
+  t202.txt="USA"
+}else if(tolets2.txt=="UJ")//UZBEKISTAN
+{
+  p2.pic=247
+  t202.txt="UZBEKISTAN"
+}else if(tolets2.txt=="UK")//UZBEKISTAN
+{
+  p2.pic=247
+  t202.txt="UZBEKISTAN"
+}else if(tolets2.txt=="UL")//UZBEKISTAN
+{
+  p2.pic=247
+  t202.txt="UZBEKISTAN"
+}else if(tolets2.txt=="UM")//UZBEKISTAN
+{
+  p2.pic=247
+  t202.txt="UZBEKISTAN"
+}else if(tolets2.txt=="YJ")//VUNUATU
+{
+  p2.pic=248
+  t202.txt="VANUATU"
+}else if(tolets2.txt=="HV")//VATICAN
+{
+  p2.pic=249
+  t202.txt="VATICAN"
+}else if(tolets2.txt=="YV")//VENEZUELA
+{
+  p2.pic=250
+  t202.txt="VENEZUELA"
+}else if(tolets2.txt=="YW")//VENEZUELA
+{
+  p2.pic=250
+  t202.txt="VENEZUELA"
+}else if(tolets2.txt=="YX")//VENEZUELA
+{
+  p2.pic=250
+  t202.txt="VENEZUELA"
+}else if(tolets2.txt=="YY")//VENEZUELA
+{
+  p2.pic=250
+  t202.txt="VENEZUELA"
+}else if(tolets2.txt=="3W")//VIETNAM
+{
+  p2.pic=251
+  t202.txt="VIETNAM"
+}else if(tolets2.txt=="XV")//VIETNAM
+{
+  p2.pic=251
+  t202.txt="VIETNAM"
+}else if(tolets2.txt=="GW")//WALES
+{
+  p2.pic=254
+  t202.txt="WALES-UK"
+}else if(tolets2.txt=="GC")//WALES
+{
+  p2.pic=254
+  t202.txt="WALES-UK"
+}else if(tolets2.txt=="MW")//WALES
+{
+  p2.pic=254
+  t202.txt="WALES-UK"
+}else if(tolets2.txt=="MC")//WALES
+{
+  p2.pic=254
+  t202.txt="WALES-UK"
+}else if(tolets2.txt=="2W")//WALES
+{
+  p2.pic=254
+  t202.txt="WALES-UK"
+}else if(tolets2.txt=="FW")//WALLIS & FUTUNA Isl
+{
+  p2.pic=254
+  t202.txt="WALLIS/FUTUNA Isl"
+}else if(tolets2.txt=="7O")//YEMEN Rep
+{
+  p2.pic=257
+  t202.txt="YEMEN Rep"
+}else if(tolets2.txt=="YU")//YUGOSLAVIA
+{
+  p2.pic=18
+  t202.txt="YUGOSLAVIA"
+}else if(tolets2.txt=="YT")//YUGOSLAVIA
+{
+  p2.pic=18
+  t202.txt="YUGOSLAVIA"
+}else if(tolets2.txt=="4N")//YUGOSLAVIA
+{
+  p2.pic=18
+  t202.txt="YUGOSLAVIA"
+}else if(tolets2.txt=="4O")//YUGOSLAVIA
+{
+  p2.pic=18
+  t202.txt="YUGOSLAVIA"
+}else if(tolets2.txt=="9J")//ZAMBIA
+{
+  p2.pic=258
+  t202.txt="ZAMBIA"
+}else if(tolets2.txt=="9I")//ZAMBIA
+{
+  p2.pic=258
+  t202.txt="ZAMBIA"
+}else if(tolets2.txt=="Z2")//ZIMBABWE
+{
+  p2.pic=260
+  t202.txt="ZIMBABWE"
+}
+//************************************************************** 3 character prefix* 3 3 3 3 3*********************
+substr t2.txt,tolets2.txt,4,3
+if(tolets2.txt=="3B6")//Agalega & St. Brandon
+{
+  p2.pic=18
+  t202.txt="AGALEGA & St.BRANDON"
+}else if(tolets2.txt=="3B7")//Agalega & St. Brandon
+{
+  p2.pic=18
+  t202.txt="AGALEGA & St.BRANDON"
+}else if(tolets2.txt=="OH0")//Aland Isl
+{
+  p2.pic=31
+  t202.txt="ALAND Isl"
+}else if(tolets2.txt=="KL7")//Alaska
+{
+  p2.pic=32
+  t202.txt="ALASKA"
+}else if(tolets2.txt=="KH8")//American Samoa
+{
+  p2.pic=246
+  t202.txt="USA SAMOA"
+}else if(tolets2.txt=="VU4")//Andaman & Nicobar Isl
+{
+  p2.pic=18
+  t202.txt="ANDAMAN&NICOBAR Isl"
+}else if(tolets2.txt=="3C0")//Annoban Isl (Pagalu Isl)
+{
+  p2.pic=18
+  t202.txt="ANNABAN/PAGALU Isl"
+}else if(tolets2.txt=="CE9")//Antarctica
+{
+  p2.pic=28
+  t202.txt="ANTARCTICA"
+}else if(tolets2.txt=="ZD8")//Ascension Isl
+{
+  p2.pic=18
+  t202.txt="ASCENSION Isl"
+}else if(tolets2.txt=="ZL9")//Auckland & Campbell Isl
+{
+  p2.pic=18
+  t202.txt="Auckland/Campbell Isl"
+}else if(tolets2.txt=="FO0")//Austral Isl
+{
+  p2.pic=34
+  t202.txt="AUSTRAL Isl"
+}else if(tolets2.txt=="YV0")//AVES/FALKLAND/MALVINAS Isl
+{
+  p2.pic=69
+  t202.txt="AVES/FALKLAND Isl"
+}else if(tolets2.txt=="KH1")//Baker & Howland Isl
+{
+  p2.pic=18
+  t202.txt="BAKER/HOWLAND Isl"
+}else if(tolets2.txt=="EA6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="EB6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="EC6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="ED6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="EE6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="EF6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="EG6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="EH6")//Balearic Isl
+{
+  p2.pic=41
+  t202.txt="BALEARIC Isl"
+}else if(tolets2.txt=="T33")//Banaba Isl
+{
+  p2.pic=18
+  t202.txt="BANABA Isl"
+}else if(tolets2.txt=="VP9")//Bermuda
+{
+  p2.pic=48
+  t202.txt="BERMUDA"
+}else if(tolets2.txt=="3Y5")//Bouvet
+{
+  p2.pic=18
+  t202.txt="BOUVET"
+}else if(tolets2.txt=="ZC4")//Cyprus/British Base
+{
+  p2.pic=18
+  t202.txt="CYPRUS/UK Base"
+}else if(tolets2.txt=="EA8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EB8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EC8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="ED8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EE8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EF8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EG8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EH8")//Canary Isl
+{
+  p2.pic=60
+  t202.txt="CANARY Isl"
+}else if(tolets2.txt=="EA9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="EB9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="EC9")//Ceuta & Mellila
+{
+  p2.pic=54
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="ED9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="EE9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="EF9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="EG9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="EH9")//Ceuta & Mellila
+{
+  p2.pic=64
+  t202.txt="CEUTA/MELLILA"
+}else if(tolets2.txt=="VQ9")//Chagos
+{
+  p2.pic=18
+  t202.txt="CHAGOS"
+}else if(tolets2.txt=="ZL7")//Chatman Isl
+{
+  p2.pic=18
+  t202.txt="CHATMAN Isl"
+}else if(tolets2.txt=="FO0")//Clipperton Isl
+{
+  p2.pic=18
+  t202.txt="CLIPPERTON Isl"
+}else if(tolets2.txt=="TI9")//Cocos Isl
+{
+  p2.pic=68
+  t202.txt="COCOS Isl"
+}else if(tolets2.txt=="SV9")//Crete
+{
+  p2.pic=18
+  t202.txt="CRETE"
+}else if(tolets2.txt=="J49")//Crete
+{
+  p2.pic=18
+  t202.txt="CRETE"
+}else if(tolets2.txt=="KP5")//Desecho Isl
+{
+  p2.pic=18
+  t202.txt="DESECHO Isl"
+}else if(tolets2.txt=="SV5")//Dodecanes/Rhodos
+{
+  p2.pic=75
+  t202.txt="DODECANES/RHODOS"
+}else if(tolets2.txt=="CE0")//Easter Isl
+{
+  p2.pic=83
+  t202.txt="EASTER Isl"
+}else if(tolets2.txt=="VP8")//Falkland Isl
+{
+  p2.pic=92
+  t202.txt="FALKLAND Isl"
+}else if(tolets2.txt=="3D2")//Fiji Isl
+{
+  p2.pic=94
+  t202.txt="FIJI Isl"
+}else if(tolets2.txt=="HC8")//GALAPGOS Isl
+{
+  p2.pic=98
+  t202.txt="GALAPGOS Isl"
+}else if(tolets2.txt=="HD8")//Galapagos Isl
+{
+  p2.pic=98
+  t202.txt="GALAPAGOS Isl"
+}else if(tolets2.txt=="ZB2")//Gibraltar
+{
+  p2.pic=18
+  t202.txt="GIBRALTAR"
+}else if(tolets2.txt=="KH2")//Guam
+{
+  p2.pic=18
+  t202.txt="GUAM"
+}else if(tolets2.txt=="KG4")//Guantanamo Bay (USA)
+{
+  p2.pic=246
+  t202.txt="Guantanamo Bay (USA)"
+}else if(tolets2.txt=="KH6")//Hawaii
+{
+  p2.pic=111
+  t202.txt="HAWAII"
+}else if(tolets2.txt=="KH7")//Hawaii
+{
+  p2.pic=111
+  t202.txt="HAWAII"
+}else if(tolets2.txt=="VK0")//Heard Isl
+{
+  p2.pic=18
+  t202.txt="HEARD Isl"
+}else if(tolets2.txt=="VS6")//Hong Kong
+{
+  p2.pic=113
+  t202.txt="HONG KONG"
+}else if(tolets2.txt=="VR2")//Hong Kong
+{
+  p2.pic=113
+  t202.txt="HONG KONG"
+}else if(tolets2.txt=="KH3")//Johnston Isl
+{
+  p2.pic=18
+  t202.txt="JOHNSTON Isl"
+}else if(tolets2.txt=="RW2")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA0")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA1")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA2")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA3")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA4")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA5")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA6")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA7")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA8")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UA9")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB0")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB1")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB2")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB3")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB4")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB5")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB6")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB7")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB8")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UB9")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="ZL8")//Kermadec Isl
+{
+  p2.pic=18
+  t202.txt="KERMADEC Isl"
+}else if(tolets2.txt=="T30")//Kiribati-West
+{
+  p2.pic=131
+  t202.txt="KIRIBATI-WEST"
+}else if(tolets2.txt=="T32")//Kiribati-East
+{
+  p2.pic=131
+  t202.txt="LIRIBATI-EAST"
+}else if(tolets2.txt=="T31")//Kiribati-Central
+{
+  p2.pic=131
+  t202.txt="KIRIBATI-CENTRAL"
+}else if(tolets2.txt=="VU7")//Laccadive Isl
+{
+  p2.pic=18
+  t202.txt="LACCADIVE Isl"
+}else if(tolets2.txt=="HB0")//Liechtenstein
+{
+  p2.pic=140
+  t202.txt="LIECHTENSTEIN"
+}else if(tolets2.txt=="XX9")//Macau
+{
+  p2.pic=143
+  t202.txt="MACAU"
+}else if(tolets2.txt=="VK0")//Macquarie Isl
+{
+  p2.pic=18
+  t202.txt="MACQUARIE Isl"
+}else if(tolets2.txt=="CT3")//Madeira Isl
+{
+  p2.pic=146
+  t202.txt="MADEIRA Isl"
+}else if(tolets2.txt=="9M6")//Malaysia-East
+{
+  p2.pic=148
+  t202.txt="MALAYSIA-East"
+}else if(tolets2.txt=="9M8")//Malaysia-East
+{
+  p2.pic=148
+  t202.txt="MALAYSIA-East"
+}else if(tolets2.txt=="9M2")//Malaysia-West
+{
+  p2.pic=148
+  t202.txt="MALAYSIA-West"
+}else if(tolets2.txt=="9M4")//Malaysia-West
+{
+  p2.pic=148
+  t202.txt="MALAYSIA-West"
+}else if(tolets2.txt=="KH0")//Mariana Isl
+{
+  p2.pic=18
+  t202.txt="MARIANA Isl"
+}else if(tolets2.txt=="ZS8")//Marion & Pr.Edward Isl
+{
+  p2.pic=18
+  t202.txt="MARION/Pr.EDWARD Isl"
+}else if(tolets2.txt=="OJ0")//Market Reef
+{
+  p2.pic=18
+  t202.txt="MARKET REEF"
+}else if(tolets2.txt=="FO0")//Marquesas
+{
+  p2.pic=152
+  t202.txt="MARQUESAS"
+}else if(tolets2.txt=="3B8")//Mauritius
+{
+  p2.pic=156
+  t202.txt="MAURITIUS"
+}else if(tolets2.txt=="KH4")//Midway Isl
+{
+  p2.pic=18
+  t202.txt="MIDWAY Isl"
+}else if(tolets2.txt=="KP1")//NAVASSA Isl
+{
+  p2.pic=18
+  t202.txt="NAVASSA Isl"
+}else if(tolets2.txt=="PJ4")//BONAIRE
+{
+  p2.pic=18
+  t202.txt="BONAIRE"
+}else if(tolets2.txt=="PJ2")//CURACAU
+{
+  p2.pic=18
+  t202.txt="CURACAO"
+}else if(tolets2.txt=="ZK2")//NIUE
+{
+  p2.pic=18
+  t202.txt="NIUE"
+}else if(tolets2.txt=="3Y0")//PETER1 Isl
+{
+  p2.pic=18
+  t202.txt="PETER1 Isl"
+}else if(tolets2.txt=="VP6")//PITCAIRN
+{
+  p2.pic=186
+  t202.txt="PITCAIRN"
+}else if(tolets2.txt=="KP3")//PUERTO RICO
+{
+  p2.pic=190
+  t202.txt="PUERTO RICO"
+}else if(tolets2.txt=="KP4")//PUERTO RICO
+{
+  p2.pic=190
+  t202.txt="PUERTO RICO"
+}else if(tolets2.txt=="3B9")//RODRIGUES Isl
+{
+  p2.pic=18
+  t202.txt="RODRIGUES Isl"
+}else if(tolets2.txt=="CY0")//SABLE Isl
+{
+  p2.pic=18
+  t202.txt="SABLE Isl"
+}else if(tolets2.txt=="KK0S")//SAN ANDRES & PROVIDENCIA
+{
+  p2.pic=18
+  t202.txt="SAN ANDRES"
+}else if(tolets2.txt=="IS0")//SARDINIA
+{
+  p2.pic=201
+  t202.txt="SARDINIA"
+}else if(tolets2.txt=="IM0")//SARDINIA
+{
+  p2.pic=201
+  t202.txt="SARDINIA"
+}else if(tolets2.txt=="BS7")//SCARBOROUGH REEF
+{
+  p2.pic=18
+  t202.txt="SCARBOROUGH REEF"
+}else if(tolets2.txt=="VP8")//SOUTH GEORGIE Isl
+{
+  p2.pic=18
+  t202.txt="SOUTH GEORGIE Isl"
+}else if(tolets2.txt=="ZD7")//ST HELENA
+{
+  p2.pic=18
+  t202.txt="ST HELENA"
+}else if(tolets2.txt=="CY9")//St.PAULS Isl
+{
+  p2.pic=219
+  t202.txt="St.PAUL Isl"
+}else if(tolets2.txt=="3D6")//SWAZILAND
+{
+  p2.pic=222
+  t202.txt="SWAZILAND"
+}else if(tolets2.txt=="H40")//TEMOTO PROVINCE
+{
+  p2.pic=18
+  t202.txt="TEMOTO PROBINCE"
+}else if(tolets2.txt=="ZK3")//TOKELAU
+{
+  p2.pic=234
+  t202.txt="TOKELAU"
+}else if(tolets2.txt=="VP5")//TURKS/CAICOS Isl
+{
+  p2.pic=18
+  t202.txt="TURKS/CAICOS Isl"
+}else if(tolets2.txt=="KP2")//VIRGIN Isl
+{
+  p2.pic=252
+  t202.txt="VIRGIN Isl"
+}else if(tolets2.txt=="KH9")//WAKE Isl
+{
+  p2.pic=18
+  t202.txt="WAKE Isl"
+}
+//************************************************************** 4 character prefix* 4 4 4 4 4 *********************
+substr t2.txt,tolets2.txt,4,4
+if(tolets2.txt=="FT8Z")//Amsterdam & St.Paul Isl
+{
+  p2.pic=219
+  t202.txt="AMSTERDAM&St.PAUL isl"
+}else if(tolets2.txt=="VP2E")//Anguilla
+{
+  p2.pic=18
+  t202.txt="AGUILLA"
+}else if(tolets2.txt=="VK9X")//Christmas Isl
+{
+  p2.pic=273
+  t202.txt="CHRISTMAS Isl"
+}else if(tolets2.txt=="VK9C")//Cocos Keeling Isl
+{
+  p2.pic=18
+  t202.txt="COCOS KEELING Isl"
+}else if(tolets2.txt=="3D2C")//Conway Reef
+{
+  p2.pic=18
+  t202.txt="CONWAY REEF"
+}else if(tolets2.txt=="ZK1N")//Cook Isl North
+{
+  p2.pic=72
+  t202.txt="COOK Isl North"
+}else if(tolets2.txt=="ZK1S")//Cook Isl South
+{
+  p2.pic=72
+  t202.txt="COOK Isl South"
+}else if(tolets2.txt=="FT8W")//Crozet Isl
+{
+  p2.pic=219
+  t202.txt="CROZET Isl"
+}else if(tolets2.txt=="R1FJ")//Franz Josef Land (Russia)
+{
+  p2.pic=18
+  t202.txt="FRANZ JOSEF LAND"
+}else if(tolets2.txt=="FR/G")//Glorioso
+{
+  p2.pic=219
+  t202.txt="GLORIOSO"
+}else if(tolets2.txt=="FR/J")//Juan de Nova
+{
+  p2.pic=18
+  t202.txt="JUAN de NOVA"
+}else if(tolets2.txt=="FT8X")//Kerguelen Isl
+{
+  p2.pic=219
+  t202.txt="KERGUELEN Isl"
+}else if(tolets2.txt=="KH5K")//Kingman Reef
+{
+  p2.pic=18
+  t202.txt="KINGMAN REEF"
+}else if(tolets2.txt=="KH7K")//Kure Isl
+{
+  p2.pic=18
+  t202.txt="KURE Isl"
+}else if(tolets2.txt=="VK9L")//Lord Howe Isl
+{
+  p2.pic=18
+  t202.txt="LORD HOWE Isl"
+}else if(tolets2.txt=="HK0M")//Malpelo Isl
+{
+  p2.pic=18
+  t202.txt="MALPELO Isl"
+}else if(tolets2.txt=="R1MV")//Malyj Vysotskij Isl
+{
+  p2.pic=18
+  t202.txt="MALYJ VYSOTSKIJ Isl"
+}else if(tolets2.txt=="OH0M")//Market Reef
+{
+  p2.pic=18
+  t202.txt="MARKET REEF"
+}else if(tolets2.txt=="VK9M")//Mellish Reef
+{
+  p2.pic=18
+  t202.txt="MELLISH REEF"
+}else if(tolets2.txt=="JD1M")//Minami Torishima
+{
+  p2.pic=18
+  t202.txt="MINAMI TORISHIMA"
+}else if(tolets2.txt=="VP2M")//MONT SERRAT
+{
+  p2.pic=163
+  t202.txt="MONT SERRAT"
+}else if(tolets2.txt=="SC2A")//MOUNT ATHOS (GREECE)
+{
+  p2.pic=75
+  t202.txt="Mt.ATHOS (CREECE)"
+}else if(tolets2.txt=="VK9N")//NORFOLK Isl
+{
+  p2.pic=175
+  t202.txt="NORFOLK Isl"
+}else if(tolets2.txt=="BV9P")//PRATAS
+{
+  p2.pic=18
+  t202.txt="PRATAS"
+}else if(tolets2.txt=="3D2R")//Rotuma Isl
+{
+  p2.pic=18
+  t202.txt="ROTUMA Isl"
+}else if(tolets2.txt=="VP2V")//BRITTISH VIRGIN Isl
+{
+  p2.pic=253
+  t202.txt="VIRGIN Isl (UK)"
+}else if(tolets2.txt=="VK9W")//WILLIS Isl
+{
+  p2.pic=256
+  t202.txt="WILLIS Isl"
+}
+//************************************************************** 6 character SPECIAL CALLS *********************
+substr t2.txt,tolets2.txt,4,6
+if(tolets2.txt=="4U1ITU")//I.T.U Geneve
+{
+  p2.pic=18
+  t202.txt="I.T.U. GENEVE"
+}else if(tolets2.txt=="PD0DIB")//Rob van Rheenen
+{
+  p2.pic=287
+  t202.txt="= Screen Designer"
+}else if(tolets2.txt=="N0CALL")//Fusion Bridge
+{
+  p2.pic=19
+  t202.txt="Unknown-Fusion Gateway"
+}
+//****************************************************************************
+//CLEAN FLAG & Country if status is LISTENING
+if(t2.txt=="2 Listening")
+{
+  p2.pic=19
+  t3.txt=""
+//  t8.txt=""
+  t202.txt=""
+}
