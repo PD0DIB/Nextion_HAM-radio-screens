@@ -1,4 +1,4 @@
-#Model 10 - version 2.xx  -  Please read this page in whole
+# Model 10 - version 2.xx  -  Please read this page in whole
 
 Version 2 is only suited for 3.5 inch and up (no 3.5 & 4.3 inch Basic!!) due to the amount of flash memory needed for this version.
 
