@@ -2,7 +2,7 @@
 
 Version 2 is only suited for 3.5 inch and up (no 3.5 & 4.3 inch Basic!!) due to the amount of flash memory needed for this version.
 
-Some extra fetares versus v1.xx:
+Some extra features versus v1.xx:
  * One file for both Simplex and Duplex; it will be working on both without reconfiguration anything
  * Extended Last Heard (LH) for all modes
  * ......
