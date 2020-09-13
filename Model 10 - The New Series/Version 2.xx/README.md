@@ -8,7 +8,7 @@ At the moment, only 3.5-inch Enhanced is available (Beta)
 
 Planned are:
   * 3.5 inch Enhanced
-      - Beta is published
+      - Beta will be published soon, working on it
   * 4.3 inch Enhanced
   * 5 inch: Basic, Enhanced & Intelligent
   * 7 inch: Basic, Enhanced & Intelligent
