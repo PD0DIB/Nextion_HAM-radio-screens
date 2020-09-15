@@ -2306,6 +2306,46 @@ if(tolets0.txt=="3B6")//Agalega & St. Brandon
 {
   p1.pic=194
   t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE0")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE1")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE2")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE3")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE4")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE5")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE6")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE7")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE8")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
+}else if(tolets0.txt=="UE9")//RUSSIA
+{
+  p1.pic=194
+  t200.txt="RUSSIA"
 }else if(tolets0.txt=="CY0")//SABLE Isl
 {
   p1.pic=18
