@@ -2218,6 +2218,46 @@ if(tolets2.txt=="3B6")//Agalega & St. Brandon
 {
   p2.pic=194
   t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE0")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE1")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE2")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE3")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE4")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE5")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE6")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE7")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE8")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
+}else if(tolets2.txt=="UE9")//RUSSIA
+{
+  p2.pic=194
+  t202.txt="RUSSIA"
 }else if(tolets2.txt=="ZL8")//Kermadec Isl
 {
   p2.pic=18
