@@ -14,7 +14,7 @@ See https://github.com/on7lds/NextionDriverInstaller
 
 ALL OTHER 7-inch (Basic and Enhanced) ARE IN THIS FOLDER TOO; just pick the correct filetype matching your screentype and GO....
 
-(c)2020 by Rob van Rheenen | PD0DIB
+(c)2020-2024 by Rob van Rheenen | PD0DIB
 
 For commercial (re)distribution of all my work at github: Prohibited in any form without prior written consent.
 Read my License doc or contact me by mail: r.van.rheenen@gmail.com
